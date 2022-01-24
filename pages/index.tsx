@@ -12,7 +12,8 @@ const Home: NextPage = () => {
   return (<>
     <br />
     <h1 className='text-center'>Flux Radio</h1>
-    <br />  <div className="container">
+    <br />
+    <div className="container">
       <div className="row">
         {contains.map(({ titel, flux, img }: any) => {
           return (<>
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
                 <audio controls src={flux}></audio>
               </div>
             </div>
+            <br />
           </>)
         })}
       </div>
