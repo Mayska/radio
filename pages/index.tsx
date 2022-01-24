@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     <br />
     <h1 className='text-center'>Flux Radio</h1>
     <br />  <div className="container">
-      <div className="row row-cols-1 row-cols-md-5 g-3">
+      <div className="row">
         {contains.map(({ titel, flux, img }: any) => {
           return (<>
             <div className="col">
